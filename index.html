@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Se connecter à l'association Poney Fringuant</title>
+    
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <div id="asso">
+        <img class="logo-connexion" src="poney1.png" alt="">
+        <h1>{{ test }}</h1>
+
+
+    <form action="connexion.php" method="POST">
+        <label for="connexion" id="connexion" >{{ id }}</label>
+        <br>
+        <input type="text" name="login" id="login" required>
+        <br>
+        <label for="password" id="password" >{{password}}</label>
+        <br>
+        <input type="password" name="password" id="passwords" required>
+        <br>
+        <button type="submit">Se connecter</button>
+    </form>
+
+    <a href="inscription.html">Je ne suis pas encore inscrit.</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
+

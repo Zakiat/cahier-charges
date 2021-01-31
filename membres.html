@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bienvenue</title>
+    <link rel="stylesheet" href="membres.css">
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <div id="asso">
+    <section>
+        <img class="logo-menu" src="./image/poney1.png" alt="" srcset="">
+        <nav>
+            <ul>
+                <li><a href="./centreinteret.html">{{ interest }}</a></li>
+                <li>{{ member }}</li>
+                <li>{{ profil }}</li>
+                <li><a href="deconnexion.php">{{ out }}</a></li>
+            </ul>
+        </nav>
+        <p>o</p>
+      <h1>Hello</h1>
+      <h2>Membre depuis</h2>
+    </section>
+    
+    <section>
+        
+            <h1>Mes centres d'intérêt</h1>
+            <form action="centreinteret.php" method="post">
+                <input type="checkbox" id="sport" name="sport" value="sport">
+                <label for="sport">Sport</label>
+            
+                <input type="checkbox" id="musique" name="musique" value="musique">
+                <label for="musique">Musique</label>
+            
+                <input type="checkbox" id="jeux" name="jeux" value="jeux">
+                <label for="jeux-vidéos">Jeux vidéos</label>
+            
+                <input type="checkbox" id="lecture" name="lecture" value="lecture">
+                <label for="lecture">Lecture</label>
+            
+                <input type="checkbox" id="informatique" name="informatique" value="informatique">
+                <label for="informatique">Informatique</label>
+            
+                <input type="checkbox" id="sorties" name="sorties" value="sorties">
+                <label for="sorties">Sorties</label>
+            
+                <input type="checkbox" id="cuisine" name="ciusine" value="cuisine">
+                <label for="cuisine">Cuisine</label>
+            
+                <input type="checkbox" id="aviation" name="aviation" value="aviation">
+                <label for="aviation">Aviation</label>
+            
+                <input type="checkbox" id="mécanique" name="mécanique" value="mécanique">
+                <label for="mécanique">Mécanique</label>
+           
+                <input type="checkbox" id="licornes" name="licornes" value="licornes">
+                <label for="licornes">Licornes</label>
+            
+                <input type="checkbox" id="joaillerie" name="joaillerie" value="joaillerie">
+                <label for="joaillerie">Joaillerie</label>
+            
+                <input type="checkbox" id="farming" name="interest[]" value="12">
+                <label for="farming">Agriculture</label> 
+            
+                <input type="checkbox" id="cinema" name="cinema" value="cinema">
+                <label for="cinema">Cinéma</label>
+            
+                <input type="checkbox" id="politique" name="politique" value="politique">
+                <label for="politique">Politique</label>
+           
+                <input type="checkbox" id="couture" name="couture" value="couture">
+                <label for="couture">Couture</label>
+           
+                <input type="checkbox" id="animaux" name="animaux" value="animaux">
+                <label for="animaux">Animaux</label>
+            
+                <input type="checkbox" id="science" name="science" value="science">
+                <label for="science">Science</label>
+            
+                <input type="checkbox" id="histoire" name="histoire" value="histoire">
+                <label for="histoire">Histoire</label>
+            
+                <input type="checkbox" id="svt" name="svt" value="svt">
+                <label for="svt">SVT</label>
+           
+               <input type="checkbox" id="chemistry" name="interest[]" value="20">
+                <label for="chemistry">Physique-Chimie</label> 
+            
+                <input type="checkbox" id="taxidermie" name="taxidermie" value="taxidermie">
+                <label for="taxidermie">Taxidermie</label>
+            
+                <input type="checkbox" id="philatélie" name="philatélie" value="philatélie">
+                <label for="philatélie">Philatélie</label>
+            <button type="submit">Valider mes préférences</button>
+            </form>
+    </section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

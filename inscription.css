@@ -1,0 +1,39 @@
+@import url('./variables.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background: var(--dark);
+    text-align: center;
+}
+
+img{
+    width: var(--small);
+}
+
+h1{
+    padding-bottom: var(--verysmall);
+    color: white;
+}
+
+form {
+    padding: var(--verysmall);
+    background: var(--grey);
+    margin-left: var(--smaller);
+    margin-right: var(--smaller);
+    border-radius: var(--verysmall);
+}
+
+input{
+    width: var(--larger);
+}
+
+button{
+    width: 200px;
+}

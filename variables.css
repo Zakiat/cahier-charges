@@ -1,0 +1,23 @@
+:root {
+    /* Palettes de couleurs */
+
+    --white: #FFFFFF;
+    --light: #AAEFCE;
+    --dark: #66C296;
+    --darker: #549877;
+    --grey: #DDDBCC;
+
+
+    /* Styles de police de caractère */
+    --default-font-size: 18px;
+    --big: 22px;
+
+    /* Taille */
+    --verysmall: 30px;
+    --smaller: 100px;
+    --small: 150px;
+    --medium: 200px;
+    --large: 250px;
+    --larger: 1000px;
+
+}

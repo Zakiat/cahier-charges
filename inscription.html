@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire sur Poney Fringuant</title>
+    <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <div id="asso">
+        <img src="poney1.png" alt="">
+        <h1>Inscription chez Poney fringuant</h1>
+    <form action="inscription.php" method="post">
+        <label for="Numéro adhérant">{{ adherent }}*</label>
+        <br>
+        <input type="text" name="adherent" id="adherent" required>
+        <br>
+        <label for="Prénom"> {{ name }}* </label>
+        <br>
+        <input type="text" name="prenom" id="prenom" required>
+        <br>
+        <label for="Nom">{{ firstname }}*</label>
+        <br>
+        <input type="text" name="nom" id="nom" required>
+        <br>
+        <label for="Pseudo"> {{ username }}* </label>
+        <br>
+        <input type="text" name="login" id="login" required>
+        <br>
+        <label for="Mot de passe"> {{ password }} *</label>
+        <br>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <label for="password confirm"> {{ confirmer }}* </label>
+        <br>
+        <input type="password" name="passwordconfirm" id="password" required>
+        <br>
+        <label for="email"> {{ mail }}* </label>
+        <br>
+        <input type="text" name="mail" id="mail" required>
+        <br>
+        <label for="numero"> {{ phonenumber }}* </label>
+        <br>
+        <input type="text" name="number" id="number" required>
+        <br>
+        <label for="adress"> {{ adress }}* </label>
+        <br>
+        <input type="text" name="adress" id="adress" required>
+        <br>
+        <label for="adress"> {{ city }}* </label>
+        <br>
+        <input type="text" name="city" id="city" required>
+        <br>
+        <label for="postal"> {{ zipcode }}* </label>
+        <br>
+        <input type="text" name="zip" id="zip" required>
+        <br>
+        <button type="submit">Valider l'inscription</button>
+    </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

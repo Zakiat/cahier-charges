@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centres d'intérêt</title>
+    <link rel="stylesheet" href="centreinteret.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <div id="asso">
+        <section>
+            <img class="logo-menu" src="./image/poney1.png" alt="" srcset="">
+            <nav>
+                <ul>
+                    <li>{{ interest }}</li>
+                    <li>{{ member }}</li>
+                    <li>{{ profil }}</li>
+                    <li><a href="deconnexion.php">{{ out }}</a></li>
+                </ul>
+            </nav>
+          <h1>Mes centres d'intérêt</h1>
+          <form action="interet.php" method="post"></form>
+        </section>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>
